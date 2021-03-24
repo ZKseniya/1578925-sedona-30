@@ -185,7 +185,7 @@ a {
           justify-content: center;
   padding-top: 77px;
   height: 509px;
-  background: url("../img/bg-header.jpg");
+  background: #567891 url("../img/bg-header.jpg");
 }
 
 .advantages-text {
@@ -237,13 +237,11 @@ a {
 .advatage-first .advatage-bg {
   grid-column: 1 / -1;
   background: url("../img/bg-first.jpg") no-repeat right top;
-  background-size: cover;
 }
 
 .advatage-second .advatage-bg {
   width: 100%;
   background: url("../img/bg-second.jpg") no-repeat left top;
-  background-size: cover;
 }
 
 .advatage-info {
@@ -1047,11 +1045,6 @@ a {
           justify-content: space-between;
 }
 
-.hotel-price {
-  display: inline-block;
-  margin-left: 35px;
-}
-
 .hotel-img {
   margin-right: 28px;
 }
@@ -1059,6 +1052,7 @@ a {
 .btn-more-details {
   min-height: 27px;
   display: inline-block;
+  vertical-align: middle;
   padding: 3px 17px;
   font-weight: bold;
   font-size: 14px;
@@ -1079,6 +1073,7 @@ a {
 .btn-reserv {
   min-height: 27px;
   display: inline-block;
+  vertical-align: middle;
   padding: 3px 17px;
   font-weight: bold;
   font-size: 14px;
@@ -1129,6 +1124,7 @@ a {
 
 .img-star {
   display:inline-block;
+  vertical-align: top;
   margin-left: 5px;
 }
 
