@@ -493,6 +493,31 @@ a {
   width: 346px;
 }
 
+.form-item input::-webkit-input-placeholder {
+  color: rgb(var(--font-color-heading));
+  opacity: 1;
+}
+
+.form-item input::-moz-placeholder {
+  color: rgb(var(--font-color-heading));
+  opacity: 1;
+}
+
+.form-item input:-ms-input-placeholder {
+  color: rgb(var(--font-color-heading));
+  opacity: 1;
+}
+
+.form-item input::-ms-input-placeholder {
+  color: rgb(var(--font-color-heading));
+  opacity: 1;
+}
+
+.form-item input::placeholder {
+  color: rgb(var(--font-color-heading));
+  opacity: 1;
+}
+
 .amount-adults,
 .amount-children {
   width: 38px;
@@ -751,6 +776,36 @@ a {
   border-radius: 2px;
   padding: 5px;
   width: 317px;
+}
+
+.price-entry input::-webkit-input-placeholder {
+  color: rgb(var(--font-color-light));
+  font-weight: 700;
+  opacity: 1;
+}
+
+.price-entry input::-moz-placeholder {
+  color: rgb(var(--font-color-light));
+  font-weight: 700;
+  opacity: 1;
+}
+
+.price-entry input:-ms-input-placeholder {
+  color: rgb(var(--font-color-light));
+  font-weight: 700;
+  opacity: 1;
+}
+
+.price-entry input::-ms-input-placeholder {
+  color: rgb(var(--font-color-light));
+  font-weight: 700;
+  opacity: 1;
+}
+
+.price-entry input::placeholder {
+  color: rgb(var(--font-color-light));
+  font-weight: 700;
+  opacity: 1;
 }
 
 .input-price {
